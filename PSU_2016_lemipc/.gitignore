@@ -1,0 +1,8 @@
+CMake*
+cmake*
+test_semaphore.c
+a.out
+*~
+*.o
+.idea*
+
