@@ -1,0 +1,10 @@
+cmake*
+.idea/*
+.idea
+*.o
+*~*
+#*#
+*~
+zappy_server
+zappy_client
+zappy_ia

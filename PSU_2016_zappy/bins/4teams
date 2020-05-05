@@ -1,0 +1,33 @@
+#!/bin/bash
+
+nb_client=0;
+
+while [ $nb_client -lt 3 ]
+do
+    ./zappy_ai -p 4242 -n Team1 -h 127.0.0.1 &
+    ((nb_client++))
+done
+
+nb_client=0;
+
+while [ $nb_client -lt 3 ]
+do
+    ./zappy_ai -p 4242 -n Team2 -h 127.0.0.1 &
+    ((nb_client++))
+done
+
+nb_client=0;
+
+while [ $nb_client -lt 3 ]
+do
+    ./zappy_ai -p 4242 -n Team3 -h 127.0.0.1 &
+    ((nb_client++))
+done
+
+nb_client=0;
+
+while [ $nb_client -lt 3 ]
+do
+    ./zappy_ai -p 4242 -n Team4 -h 127.0.0.1 &
+    ((nb_client++))
+done
