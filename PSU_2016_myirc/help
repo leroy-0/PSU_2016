@@ -1,0 +1,12 @@
+705 ◦ /server _host_[:_port_] : se connecte à un serveur
+705 ◦ /nick _nickname_ : définit le surnom de l’utilisateur au sein du serveur
+705 ◦ /list [string] : liste les channels disponibles sur le serveur. N’affiche que les channels contenant la chaîne "string" si celle-ci est spécifiée.
+705 ◦ /join _channel_ : rejoint un channel sur le serveur
+705 ◦ /part _channel_ : quitte le channel
+705 ◦ /users : liste les utilisateurs connectés au serveur (liste des nicknames bien entendu)
+705 ◦ /names _channel_ : liste les utilisateurs connectés au channel (liste des nicknames bien entendu)
+705 ◦ _message_ : envoie un message à tous les utilisateurs connectés au channel.
+705 ◦ /msg _nickname_ _message_ : envoie un message à un utilisateur spécifique
+705 ◦ /msg _channel_ _message_ : envoie un message à un channel spécifique
+705 ◦ /send_file _nickname_ _file_ : envoie un fichier à un utilisateur.
+705 ◦ /accept_file _nickname_ : accepte la réception d’un fichier en provenance d’un utilisateur du channel.

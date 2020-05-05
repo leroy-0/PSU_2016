@@ -1,0 +1,9 @@
+USER Anonymous
+pass
+PWD
+CWD
+PWD
+CDUP
+PWD
+QUIT
+
